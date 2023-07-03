@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <ControlTemplate x:Key="DarkButtonTemplate" TargetType="Button">
+        <Border Background="DarkGray" BorderBrush="Black" BorderThickness="1" CornerRadius="6">
+            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+    </ControlTemplate>
+
+    <Style TargetType="Button">
+        <Setter Property="Template" Value="{StaticResource DarkButtonTemplate}"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style TargetType="TextBox">
+        <Setter Property="Background" Value="DarkGray"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+</ResourceDictionary>

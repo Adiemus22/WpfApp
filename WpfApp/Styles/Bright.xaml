@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <ControlTemplate x:Key="BrightButtonTemplate" TargetType="Button">
+        <Border Background="LightGray" BorderBrush="Black" BorderThickness="1" CornerRadius="6">
+            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+    </ControlTemplate>
+
+    <Style TargetType="Button">
+        <Setter Property="Template" Value="{StaticResource BrightButtonTemplate}"/>
+        <Setter Property="Foreground" Value="Black"/>
+    </Style>
+
+    <Style TargetType="TextBox">
+        <Setter Property="Background" Value="LightGray"/>
+        <Setter Property="Foreground" Value="Black"/>
+    </Style>
+</ResourceDictionary>
