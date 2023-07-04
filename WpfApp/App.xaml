@@ -6,8 +6,8 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/WpfApp;component/Styles/Dark.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/WpfApp;component/Styles/Bright.xaml" />
+                <ResourceDictionary Source="/Styles/Dark.xaml"/>
+                <ResourceDictionary Source="/Styles/Bright.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
